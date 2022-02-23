@@ -338,11 +338,37 @@
         #us{
             text-align: center;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            animation-duration: 3s;
+            animation-name: usanimacion;
         }
+        @keyframes usanimacion {
+            from {
+              margin-right: 100%;
+              width: 300%
+            }
+          
+            to {
+              margin-right: 0%;
+              width: 100%;
+            }
+          }
         #goal{
             text-align: center;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            animation-duration: 3s;
+            animation-name: goalanimacion;
         }
+        @keyframes goalanimacion {
+            from {
+              margin-left: 100%;
+              width: 300%
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
         .galeria{
             width: 100%;
             min-height: 600px;
@@ -496,8 +522,23 @@
               grid-row-gap: 20px;
               text-align: center;
               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              animation-duration: 2s;
+              animation-name: animacioncontenedor;
 
           }
+
+          @keyframes animacioncontenedor {
+            from {
+              margin-left: 100%;
+              width: 300%
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+
         .partners{
             background-color: rgb(104, 41, 41);
             border: 3px solid black;
