@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>contacto</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="imagenes/logo.png" alt="Inicio" width="80" height="80"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">nosotros</a></li>
+                <li><a href="servicios.html">servicios</a></li>
+                <li><a href="galeria.html">galeria</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>  
+        </nav>  
+    </header>
+
+<main>    
+    <section>
+    <h1>Formulario</h1>
+
+    <form action="enviar.php" method="get" enctype="" class="formulario">
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" placeholder="escribe tu nombre" required>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" placeholder="escribe tu apellido" required>
+        <br>
+        <label for="password">Clave</label>
+        <input type="password" name="password" placeholder="elige una contraseña" required>
+        <br>
+        <label for="telefono">Telefono</label>
+        <input type="number" name="telefono" placeholder="ingresa tu numero de telefono">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="password" placeholder="ingresa tu email" required>
+        <br>
+        <input type="radio" name="sexo">
+        <label for="sexo">Hombre</label>
+        <input type="radio" name="sexo">
+        <label for="sexo">Mujer</label>
+        <input type="radio" name="sexo">
+        <label for="sexo">Sin especificar</label>
+        
+        <br>
+        <label for="comentarios">Comentarios</label>
+        <br>
+        <textarea name="comentarios" id="" cols="30" rows="10" placeholder="escribe tu comentario"></textarea>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar todo">
+        <br>
+        <br>
+        <input type="checkbox" name="html">
+        <label for="html">Acepto los terminos y condiciones</label>
+    </section>
+    <section>
+        <h2 class="sec1">Nuestros Partners</h2>
+            <div class="partners">
+                <div class="partner1"><img src="imagenes/python.jpg" alt="" width="180" height="150"></div>
+                <div class="partner2"><img src="https://i.blogs.es/ba4666/emele/1366_2000.jpg" alt="" width="180" height="150"></div>
+                <div class="partner3"><img src="https://prestamos-personales.net/wp-content/uploads/2021/04/Uala.png" alt="" width="180" height="150"></div>
+            </section>
+    </section>
+</main>        
+        <footer> 
+            <h2>Nuestras redes</h2> 
+            <ul> 
+             <li><a href="https://www.instagram.com/" target="_blank"><img 
+          src="imagenes/instagram.png" alt="Instagram-Logo" width="60" height="60"></a></li> 
+             <li><a href="https://www.facebook.com/" target="_blank"><img 
+          src="imagenes/facebook.png" alt="Facebook-Logo" width="60" height="60"></a></li> 
+             <li>Mail de contacto: <a 
+          href="daniel.ariguel@gmail.com">daniel.ariguel@gmail.com</a></li> 
+          <br>
+             <li>Todos los derechos reservados</li> 
+            </ul> 
+           </footer>
+</body>
+</html>
